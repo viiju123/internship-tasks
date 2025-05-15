@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <link rel="stylesheet" href="../css/signup.css" />
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="left-container">
+      <div>
+        <img src="../js/login.png" />
+      </div>
+    </div>
+
+    <div class="right-container">
+      <div class="padding">
+        <div class="logo-container">
+          <img src="../js/education.png" alt="" />
+        </div>
+
+        <div>
+          <h3 style="font-size: 22px;">Login to explore courses </h3>
+        </div>
+
+        <div class="wrapper">
+          <div class="inside">
+            <div>
+              <p>Email</p>
+            </div>
+            <div><input type="email" id="email" placeholder="Enter your email" /></div>
+            <div style="color:rgb(116, 48, 48); display:none;" id="emailWarn">
+              <p style="font-size: 12px;">Enter email</p>
+            </div>
+          </div>
+
+          <div class="inside">
+            <div>
+              <p>Password</p>
+            </div>
+            <div><input type="password" id="password" placeholder="Enter your password" /></div>
+            <div style="color:rgb(116, 48, 48); display:none;" id="passWarn">
+              <p style="font-size: 12px;">Enter password</p>
+            </div>
+          </div>
+
+
+          <div>
+            <button id="loginBtn">Login</button>
+          </div>
+          <div style="margin-top: 10px;">
+            Do not have an account?
+            <a href="#" id="navigate">Create new</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../js/login.js"></script>
+</body>
+
+</html>
